@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5F8"> <!-- Cute pastel pink background -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/messageText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Ira agr app acha nai laga ya cringe laga to plz kuch bolna mt ham smjh jayenge tumhe acha nahi laga mgr dndtna mt ..... last time jab ham log mile thai to usse pehle tumne kaha tha ki ye last hoga iske baad ham nahi milenge issiliye mene socha ki birthday gift to nahi  de payenge issiliye mene ye app banaya tha agr tumhe nahi acha laga to koi baat nahi ............\n\nHAPPY BIRTHDAY IRA   ❤️"
+                android:textSize="22sp"
+                android:textColor="#E91E63"
+                android:lineSpacingExtra="8dp"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

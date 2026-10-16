@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Remix: ira 3",
+  "description": "A birthday wish app for Ira",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
